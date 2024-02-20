@@ -1,0 +1,79 @@
+body {
+    background-image: url('./pxfuel.jpg'); /* Replace 'your-background-image.jpg' with the path to your actual background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 50px;
+    overflow-x: hidden;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+
+.btn {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: red;
+}
+
+.pulse {
+    animation: pulse 1s infinite;
+}
+
+/* Other styles remain unchanged */
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+.border {
+    border: 2px solid #3498db;
+}
+
+.hover-scale:hover {
+    transform: scale(1.1);
+}
+
+.pulse {
+    animation: pulse 1s infinite;
+}
+
+
+
+.hover-scale:hover {
+    transform: scale(1.1);
+}
+
+.pulse {
+    animation: pulse 1s infinite;
+}
+
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
